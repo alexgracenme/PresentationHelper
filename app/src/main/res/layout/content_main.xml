@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bn_LB"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:text="LB" />
+
+        <Button
+            android:id="@+id/bn_RB"
+            android:layout_width="126dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:text="RB" />
+
+        <Button
+            android:id="@+id/bn_SVPT"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:text="SVPT" />
+
+        <CheckBox
+            android:id="@+id/cb_ALT"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:text="ALT" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bn_FORWARD"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:text="Next" />
+
+        <Button
+            android:id="@+id/bn_PREV"
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:text="Prev" />
+
+        <TextView
+            android:id="@+id/title_left_text"
+            android:layout_width="154dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:text="Hello World!" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bn_VOICE"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:text="Voice" />
+
+        <Button
+            android:id="@+id/bn_PLAY"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:text="Play" />
+
+        <Button
+            android:id="@+id/bn_SAVE"
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:text="Save" />
+
+        <CheckBox
+            android:id="@+id/cb_MV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mouse Move" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bn_CLEAR"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:text="Clear" />
+
+        <Button
+            android:id="@+id/bn_SHIFTF5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:text="Shift+F5" />
+
+        <Button
+            android:id="@+id/bn_LASER"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:text="LASER" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bn_MV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:text="Press and Move" />
+    </LinearLayout>
+
+</LinearLayout>
